@@ -1,0 +1,58 @@
+h1{
+    color: blue;
+    text-align: center;
+
+}
+
+.estilo{
+
+    font-size: 30px;
+    color: teal;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+.botones {
+    color: white;
+    background-color: teal;
+    padding: 10px 30px;
+    margin: 10px 30px;
+    width: 6%;
+
+  
+   
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* estilo para ocultar bloques de pregunta */
+.ocultar_p1_ca {
+    display: none;
+    color: teal;
+}
+.ocultar_p2_ca{
+    display: none;
+    color: teal;
+}
+.ocultar_p3_ca{
+    display: none;
+    color: teal;
+}
+.ocultar_p1_co{
+    display: none;
+    color: teal;
+}
+.ocultar_p2_co{
+    display: none;
+    color: teal;
+}
+.ocultar_p3_co{
+    display: none;
+    color: teal;
+}
+
