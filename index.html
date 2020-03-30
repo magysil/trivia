@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <script src="preguntas.js"></script>
+<section>
+    <h1> En cual categoría quieres juegar:</h1>
+ <!-- seccion evento de click a los botones capitales y comida, llama a funcion mostrar capitales y mostrar comida -->
+<section id="btn" class="btn">
+    <div  class="botones"> 
+        <input type="button" value="Capitales" onclick="mostrar_capitales();">
+        
+    </div>
+    <div class="botones"> 
+        <input type="button" value="Comidas" onclick="mostrar_comidas();">
+        
+    </div> 
+ 
+</section>
+</section>  
+
+<!-- seccion preguntas y respuesta capitales -->
+    <div id="ocultar_p1_ca" class="ocultar_p1_ca">
+        <h2>¿Cual es la Capital de Venezuela?</h2>
+        <input type="radio" name="r1" value="Respuesta1" onclick="capital(this)" id="resp1"> <label for="resp1">Caracas</label><br>
+        <input type="radio" name="r1" value="Respuesta2" onclick="capital(this)" id="resp2"> <label for="resp2">Maracaibo</label><br>
+        <input type="radio" name="r1" value="Respuesta3" onclick="capital(this)" id="resp3"> <label for="resp3">Valencia</label><br>
+    </div>
+    <div id="ocultar_p2_ca" class="ocultar_p2_ca">
+        <h2>¿Cual es la capital de Chile?</h2>
+        <input type="radio" name="r2" value="Respuesta4" onclick="capital1(this)" id="resp4"> <label for="resp1">Santiago de Chile</label><br>
+        <input type="radio" name="r2" value="Respuesta5" onclick="capital1(this)" id="resp5"> <label for="resp2">Viña del Mar</label><br>
+        <input type="radio" name="r2" value="Respuesta6" onclick="capital1(this)" id="resp6"> <label for="resp3">Concepción</label><br>
+    </div>
+    <div id="ocultar_p3_ca" class="ocultar_p3_ca">
+        <h2>¿Cual es la capital de España?</h2>
+        <input type="radio" name="r3" value="Respuesta7" onclick="capital2(this)" id="resp7"> <label for="resp1">Madrid</label><br>
+        <input type="radio" name="r3" value="Respuesta8" onclick="capital2(this)" id="resp8"> <label for="resp2">Barcelona</label><br>
+        <input type="radio" name="r3" value="Respuesta9" onclick="capital2(this)" id="resp9"> <label for="resp3">Valencia</label><br><br>
+        <div class="botones">
+            <!-- <input type="button" onClick="capital()" value="Siguiente" > -->
+        </div>
+    </div>
+
+    <!-- seccion preguntas y respuesta comidas -->
+    <div id="ocultar_p1_co" class="ocultar_p1_co">
+        <h2>¿Cual es el plato típico de Venezuela?</h2>
+        <input type="radio" name="r1" value="Respuesta1"  id="resp10"> <label for="resp10">Pabellon</label><br>
+        <input type="radio" name="r1" value="Respuesta2" id="resp11"> <label for="resp11">Ajiaco</label><br>
+        <input type="radio" name="r1" value="Respuesta3" id="resp12"> <label for="resp12">Pizza</label><br>
+    </div>
+    <div id="ocultar_p2_co" class="ocultar_p2_co">
+        <h2>¿Cual es el plato típico de Chile¿</h2>
+        <input type="radio" name="r2" value="Respuesta1"  id="resp13"> <label for="resp13">Empanada de Pino</label><br>
+        <input type="radio" name="r2" value="Respuesta2" id="resp14"> <label for="resp14">Sushi</label><br>
+        <input type="radio" name="r2" value="Respuesta3" id="resp15"> <label for="resp15">Arroz con Pollo</label><br>
+    </div>
+    <div id="ocultar_p3_co" class="ocultar_p3_co">
+        <h2>¿La Paella es un plato típico de cual país?</h2>
+        <input type="radio" name="r3" value="Respuesta1"  id="resp16"> <label for="resp16">España</label><br>
+        <input type="radio" name="r3" value="Respuesta2" id="resp17"> <label for="resp17">Panama</label><br>
+        <input type="radio" name="r3" value="Respuesta3" id="resp18"> <label for="resp18">Colombia</label><br><br>
+        <div  class="botones">
+            <input type="button" onClick="comidas()" value="Siguiente">
+        </div>
+    </div>
+</body>
+</html>
+ 
